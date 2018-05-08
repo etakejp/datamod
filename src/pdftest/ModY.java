@@ -51,7 +51,7 @@ public class ModY  extends PDFTextStripper {
     	
         PDDocument document = null;
         PrintWriter pw = null;
-        //String fileName = "C:/Labo20/NTTêº/â¡çH/HTMLâª/W17-00671.pdf";
+        //String fileName = "C:/Labo20/NTTÔøΩÔøΩ/ÔøΩÔøΩÔøΩH/HTMLÔøΩÔøΩ/W17-00671.pdf";
         try {
             document = PDDocument.load( new File(str_file_name) );
             PDFTextStripper stripper = new ModY();
@@ -88,8 +88,8 @@ public class ModY  extends PDFTextStripper {
 			//File pdfFile = new File(args[0]);
 			//File resultFile = new File(args[1]);
 			
-			String str_dir_root ="C:/Labo20/NTTêº/â¡çH/pdf_from_doc";
-			//File resultFile = new File("C:/Labo20/NTTêº/â¡çH/HTMLâª/W17-00671_test.txt");
+			String str_dir_root ="C:/Labo20/NTTÔøΩÔøΩ/ÔøΩÔøΩÔøΩH/pdf_from_doc";
+			//File resultFile = new File("C:/Labo20/NTTÔøΩÔøΩ/ÔøΩÔøΩÔøΩH/HTMLÔøΩÔøΩ/W17-00671_test.txt");
 			
 			
 			try{
@@ -109,6 +109,7 @@ public class ModY  extends PDFTextStripper {
 			}
 			catch(Exception ex){
 				ex.printStackTrace();
+				System.out.println("aaa" + "bbb");
 			}
 		//}
 	}
